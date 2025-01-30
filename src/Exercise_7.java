@@ -8,9 +8,9 @@ public class Exercise_7 {
         System.out.println("input a radius :");
 
         //Float R= 7.5F;
-        int R = in.nextInt();
+        double R = in.nextDouble();
         Float P= (float)(2* 3.14*R);
-        Float A = (float) (3.14/4*R*R);
+        Float A = (float) (3.14*R*R);
         System.out.println("PERIMETER:" + " = " + P);
         System.out.println("AREA:" + "=" + A);
 
